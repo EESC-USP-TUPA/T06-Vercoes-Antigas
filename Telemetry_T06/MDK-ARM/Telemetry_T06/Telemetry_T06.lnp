@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"telemetry_t06\startup_stm32f103xb.o"
+"telemetry_t06\main.o"
+"telemetry_t06\gpio.o"
+"telemetry_t06\can.o"
+"telemetry_t06\spi.o"
+"telemetry_t06\stm32f1xx_it.o"
+"telemetry_t06\stm32f1xx_hal_msp.o"
+"telemetry_t06\stm32f1xx_hal_gpio_ex.o"
+"telemetry_t06\stm32f1xx_hal_can.o"
+"telemetry_t06\stm32f1xx_hal_spi.o"
+"telemetry_t06\stm32f1xx_hal_spi_ex.o"
+"telemetry_t06\stm32f1xx_hal_tim.o"
+"telemetry_t06\stm32f1xx_hal_tim_ex.o"
+"telemetry_t06\stm32f1xx_hal.o"
+"telemetry_t06\stm32f1xx_hal_rcc.o"
+"telemetry_t06\stm32f1xx_hal_rcc_ex.o"
+"telemetry_t06\stm32f1xx_hal_gpio.o"
+"telemetry_t06\stm32f1xx_hal_dma.o"
+"telemetry_t06\stm32f1xx_hal_cortex.o"
+"telemetry_t06\stm32f1xx_hal_pwr.o"
+"telemetry_t06\stm32f1xx_hal_flash.o"
+"telemetry_t06\stm32f1xx_hal_flash_ex.o"
+"telemetry_t06\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Telemetry_T06\Telemetry_T06.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Telemetry_T06.map" -o Telemetry_T06\Telemetry_T06.axf
